@@ -34,4 +34,4 @@ class Clock {
 let clock = new Clock({template: 'h:m:s'});
 clock.start();
 
-
+//new Date로 선언하면 getHours, getMinutes로 선언 할 수 있다.

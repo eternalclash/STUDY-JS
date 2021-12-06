@@ -17,7 +17,7 @@ let animal = new Animal("동물")
 animal.run(40)
 //////  또 다른 클래스 Rabbit, 토끼는 동물이므로 Rabbit은 동물 관련 메서드가 담신 Animal 확장, 토끼도 동물이 할 수 있는 '일반적안'동작가능
 
-class Rabbit extends ANimal {
+class Rabbit extends Animal {
     hide() {
         console.log(`${this.name}이/가 숨었습니다`)
     }
